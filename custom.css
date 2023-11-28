@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+ }
+ h1, h2, h5{
+     font-family: "Times New Roman", Times, serif;
+ }
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+header {
+  background: no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.color-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  min-height: 60vh;
+}
+
+.singleCol {
+  max-width: 750px;
+}
+
+footer {
+  background-color: #3a3a3a;
+  color: wheat;
+}
+
+footer a {
+  color: white;
+}
+.btn-outline-dark{
+    color : white;
+    background-color: black;
+}
+footer a:hover {
+  color: #dfdfdf;
+}
+
+@media (max-width: 767.98px) {
+  .color-overlay {
+    min-height: 30vh;
+  }
+p img{
+  border-radius:50%;
+  border-style:solid;
+  border-color:black;
+  border:solid 5px black;
+}
